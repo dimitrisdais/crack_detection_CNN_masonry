@@ -19,16 +19,18 @@ In case you use or find interesting our work please cite the following Journal p
 
 **D. Dais, İ.E. Bal, E. Smyrou, V. Sarhosis, Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning, Automation in Construction. 125 (2021), pp. 103606. https://doi.org/10.1016/j.autcon.2021.103606.**
 
+``` 
 @article{Dais2021,  
-author = {Dais, Dimitris and Bal, İhsan Engin and Smyrou, Eleni and Sarhosis, Vasilis},  
-doi = {10.1016/j.autcon.2021.103606},  
-journal = {Automation in Construction},  
-pages = {103606},  
-title = {{Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning}},  
-url = {[https://linkinghub.elsevier.com/retrieve/pii/S0926580521000571](https://linkinghub.elsevier.com/retrieve/pii/S0926580521000571)},  
-volume = {125},  
-year = {2021}  
+  author = {Dais, Dimitris and Bal, İhsan Engin and Smyrou, Eleni and Sarhosis, Vasilis},  
+  doi = {10.1016/j.autcon.2021.103606},  
+  journal = {Automation in Construction},  
+  pages = {103606},  
+  title = {{Automatic crack classification and segmentation on masonry surfaces using convolutional neural networks and transfer learning}},  
+  url = {https://linkinghub.elsevier.com/retrieve/pii/S0926580521000571},  
+  volume = {125},  
+  year = {2021}  
 }  
+```  
 
 Author and Moderator of the Repository: **[Dimitris Dais](https://github.com/dimitrisdais)**  
 
@@ -42,18 +44,18 @@ YouTube Channel: https://www.youtube.com/channel/UCuSdAarhISVQzV2GhxaErsg
 Your feedback is welcome. Feel free to reach out to explore any options for collaboration.
 
 # Table of Contents
- [Crack detection for masonry surfaces](https://github.com/dimitrisdais/readme/blob/main/README.md#crack-detection-for-masonry-surfaces)  
- [Table of Contents](https://github.com/dimitrisdais/readme/blob/main/README.md#table-of-contents)  
- [Publication - Brief Preview](https://github.com/dimitrisdais/readme/blob/main/README.md#publication---brief-preview)  
- | --- [Image patch classification for crack detection](https://github.com/dimitrisdais/readme/blob/main/README.md#image-patch-classification-for-crack-detection)  
- | --- [Crack segmentation on pixel level](https://github.com/dimitrisdais/readme/blob/main/README.md#crack-segmentation-on-pixel-level)  
- [How to download and run the code](https://github.com/dimitrisdais/readme/blob/main/README.md#how-to-download-and-run-the-code)  
- [Configuration file](https://github.com/dimitrisdais/readme/blob/main/README.md#configuration-file)  
- [Build data](https://github.com/dimitrisdais/readme/blob/main/README.md#build-data)  
- [Train](https://github.com/dimitrisdais/readme/blob/main/README.md#train)  
- [Evaluate](https://github.com/dimitrisdais/readme/blob/main/README.md#evaluate)  
- [Acknowledgements](https://github.com/dimitrisdais/readme/blob/main/README.md#acknowledgements)  
- [References](https://github.com/dimitrisdais/readme/blob/main/README.md#references)  
+ [Crack detection for masonry surfaces](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#crack-detection-for-masonry-surfaces)  
+ [Table of Contents](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#table-of-contents)  
+ [Publication - Brief Preview](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#publication---brief-preview)  
+ | --- [Image patch classification for crack detection](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#image-patch-classification-for-crack-detection)  
+ | --- [Crack segmentation on pixel level](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#crack-segmentation-on-pixel-level)  
+ [How to download and run the code](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#how-to-download-and-run-the-code)  
+ [Configuration file](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#configuration-file)  
+ [Build data](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#build-data)  
+ [Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)  
+ [Evaluate](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#evaluate)  
+ [Acknowledgements](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#acknowledgements)  
+ [References](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#references)  
 
 # Publication - Brief Preview
 The aim of this study is to examine deep learning techniques for crack detection on images from masonry walls. A dataset with photos from masonry structures is produced containing complex backgrounds  and  various  crack  types  and  sizes.  Different  deep  learning  networks  are  considered  and  by leveraging the effect of transfer learning crack detection on masonry surfaces is performed on patch level with **95.3% accuracy** and on pixel level with **79.6% F1 score**. **This is the first implementation of deep learning for pixel-level crack segmentation on masonry surfaces.**
@@ -94,18 +96,18 @@ Different state of the art CNNs pretrained on ImageNet are examined herein for t
 # How to download and run the code
 
 Simply download the code and copy it your desired folder path.  
-In order to use the code you need to define the **Configuration file** (**[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**) suitably.
+In order to use the code you need to define the **[Configuration file](https://github.com/dimitrisdais/crack_detection_CNN_masonry#configuration-file)** (**[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**) suitably.
 There are three modes:  
 
-- **[Build data](https://github.com/dimitrisdais/readme/blob/main/README.md#build-data)**  
-- **[Train](https://github.com/dimitrisdais/readme/blob/main/README.md#train)**  
-- **[Evaluate](https://github.com/dimitrisdais/readme/blob/main/README.md#evaluate)** 
+- **[Build data](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#build-data)**  
+- **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)**  
+- **[Evaluate](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#evaluate)** 
 
-To use the **Build data** mode you need to run the **build_data.py** file while the **Train** and **Evaluate** modes are implemented with the **train_evaluate.py** file. See the documentation below for extra info.  
+To use the **[Build data](https://github.com/dimitrisdais/crack_detection_CNN_masonry#build-data)** mode you need to run the **[build_data.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/build_data.py)** file while the **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)** and **[Evaluate](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#evaluate)** modes are implemented with the **[train_evaluate.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/train_evaluate.py)** file. See the documentation below for extra info.  
 
 # Configuration file
 
-In the Configuration file (**config_class.py**) you can define the parameters that will be used when running the code.  
+In the **[Configuration file](https://github.com/dimitrisdais/crack_detection_CNN_masonry#configuration-file)** (**[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**) you can define the parameters that will be used when running the code.  
 See below some examples of different parameters that can be defined:  
 
 ``` python
@@ -123,7 +125,7 @@ See below some examples of different parameters that can be defined:
         self.INIT_LR = 0.0005
 ```  
 
-When the **Train** mode is used, define which network to be used. The options are:  
+When the **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)** mode is used, define which network to be used. The options are:  
 - **[U-net](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)**  
 - **[Deeplabv3](https://github.com/tensorflow/models/tree/master/research/deeplab)**  
 - **[DeepCrack](https://github.com/hanshenChen/crack-detection)**  
@@ -143,10 +145,9 @@ When the **Train** mode is used, define which network to be used. The options ar
 ```  
 
 In order to use the **[Deeplabv3](
-https://github.com/tensorflow/models/tree/master/research/deeplab)** network copy **[model.py](https://github.com/tensorflow/models/blob/main/research/deeplab/model.py)** to the **networks** folder.  
+https://github.com/tensorflow/models/tree/master/research/deeplab)** network copy **[model.py](https://github.com/tensorflow/models/blob/main/research/deeplab/model.py)** to the **[networks](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main/networks)** folder.  
 
-In order to use the **[DeepCrack](https://github.com/hanshenChen/crack-detection)** network copy **[edeepcrack_cls.py](https://github.com/hanshenChen/crack-detection/blob/main/edeepcrack_cls.py)** and **[indices_pooling.py](https://github.com/hanshenChen/crack-detection/blob/main/indices_pooling.py)** to the **networks** folder.
-
+In order to use the **[DeepCrack](https://github.com/hanshenChen/crack-detection)** network copy **[edeepcrack_cls.py](https://github.com/hanshenChen/crack-detection/blob/main/edeepcrack_cls.py)** and **[indices_pooling.py](https://github.com/hanshenChen/crack-detection/blob/main/indices_pooling.py)** to the **[networks](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main/networks)** folder.
 
 In order to use the **[Segmentation Models](https://github.com/qubvel/segmentation_models)** use the pip install method as shown in in the corresponding GitHub repository.  
 
@@ -168,7 +169,7 @@ Is it possible to select among the following Loss Functions:
 ```  
 
 # Build data
-Under the folder **dataset** there are two sub-folders with the images and the corresponding masks.
+Under the folder **[dataset](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main/dataset)** there are two sub-folders with the **[images](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main/dataset/crack_detection_224_images)** and the corresponding **[masks](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main/dataset/crack_detection_224_masks)**.
 
 | <img src="https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/images/images.png" width="700"> |
 |:--:| 
@@ -176,16 +177,18 @@ Under the folder **dataset** there are two sub-folders with the images and the c
 | <img src="https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/images/masks.png" width="700"> |
 |:--:| 
 
-Execute the **build_data.py** to split the dataset into train and validation set and create HDF5 files that can be easily accessed when in **train** and **evaluate** modes. The **output** folder will be created and the output files will be stored in the **hdf5** sub-folder. 
+Execute the **[build_data.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/build_data.py)** to split the dataset into train and validation set and create HDF5 files that can be easily accessed when in **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)** and **[Evaluate](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#evaluate)** modes. The **output** folder will be created and the output files will be stored in the **hdf5** sub-folder. 
 
-Use the **Build data** mode by suitably setting the **config_class.py**. 
+**It is noted that the output folder will be created automatically after executing the code.**  
+
+Use the **[Build data](https://github.com/dimitrisdais/crack_detection_CNN_masonry#build-data)** mode by suitably setting the **[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**. 
 
 ``` python
         # Define the mode that will be used when running the code
         self.mode = 'build_data' # 'train', 'evaluate' or 'build_data'
 ``` 
 
-In the **build_data.py** define appropriately the **folder["main"]** to correspond to the folder where you stored the repository on your local machine.
+In the **[build_data.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/build_data.py)** define appropriately the **[folder["main"]](https://github.com/dimitrisdais/crack_detection_CNN_masonry)** to correspond to the folder where you stored the repository on your local machine.
 
 ``` python
 # The path where the repository is stored
@@ -197,14 +200,14 @@ if folder['main'] == '':
 ``` 
 
 # Train
-Use the **Train** mode by suitably setting the **config_class.py**. 
+Use the **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)** mode by suitably setting the **[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**. 
 
 ``` python
         # Define the mode that will be used when running the code
         self.mode = 'train' # 'train', 'evaluate' or 'build_data'
 ``` 
-  
-In the **train_evaluate.py** define appropriately the **folder["main"]** to correspond to the folder where you stored the repository on your local machine. Then execute the **train_evaluate.py** to train the selected network on the provided dataset.
+
+In the **[train_evaluate.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/train_evaluate.py)** define appropriately the **[folder["main"]](https://github.com/dimitrisdais/crack_detection_CNN_masonry)** to correspond to the folder where you stored the repository on your local machine. Then execute the **[train_evaluate.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/train_evaluate.py)** to train the selected network on the provided dataset.
 
 ``` python
 # The path where the repository is stored
@@ -225,8 +228,7 @@ When training the model the following files will be created:
 - The architecture of the network will be stored in the folder **output**  
 - The summary of the model will be stored to txt file in the folder **output**  
 - The results (i.e. metrics, loss) will be stored to CSV format in the folder **output**  
-- The weights of the trained model will be stored for different epochs in the sub-folder **weights**. See **TrainingMonitor** for extra details.  
-
+- The weights of the trained model will be stored for different epochs in the sub-folder **weights**. See **[TrainingMonitor](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/subroutines/callbacks/trainingmonitor.py)** for extra details.  
 
 | <img src="https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/images/output folder.png" width="350"> | 
 |:--:| 
@@ -245,15 +247,15 @@ When training the model the following files will be created:
 | *The weights of the trained model will be stored for different epochs.* |  
 
 # Evaluate
-Use the **Evaluate** mode by suitably setting the **config_class.py**. 
+Use the **[Evaluate](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#evaluate)** mode by suitably setting the **[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**. 
 
 ``` python
         # Define the mode that will be used when running the code
         self.mode = 'evaluate' # 'train', 'evaluate' or 'build_data'
 ``` 
   
-In the **train_evaluate.py** define appropriately the **folder["main"]** to correspond to the folder where you stored the repository on your local machine. 
-If **folder["main"]** was set during the **Train** mode, it does not need to be changed again.
+In the **[train_evaluate.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/train_evaluate.py)** define appropriately the **[folder["main"]](https://github.com/dimitrisdais/crack_detection_CNN_masonry)** to correspond to the folder where you stored the repository on your local machine. 
+If **[folder["main"]](https://github.com/dimitrisdais/crack_detection_CNN_masonry)** was set during the **[Train](https://github.com/dimitrisdais/crack_detection_CNN_masonry/tree/main#train)** mode, it does not need to be changed again.
 
 ``` python
 # The path where the repository is stored
@@ -284,7 +286,7 @@ Best value of the monitored metric: **0.681**
 
 For extra clarification, refer to the documentation of **[ModelCheckpoint](https://keras.io/api/callbacks/model_checkpoint/)**    
 
-Subsequently, execute the **train_evaluate.py** to use the pre-trained network to perform predictions and visualize them.
+Subsequently, execute the **[train_evaluate.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/train_evaluate.py)** to use the pre-trained network to perform predictions and visualize them.
 
 | <img src="https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/images/predictions_repo.png" width="350"> | 
 |:--:| 
@@ -292,7 +294,7 @@ Subsequently, execute the **train_evaluate.py** to use the pre-trained network t
 
 **It is noted that the metrics displayed in the figure above were obtained with training only for 10 epochs and a sub-set of the whole masonry dataset was used.**
 
-When using the default configuration, the validation set will be used to evaluate the trained model. In case a different test needs to be used, then define suitably the **self.args['EVAL_HDF5']** in the **config_class.py**.  
+When using the default configuration, the validation set will be used to evaluate the trained model. In case a different test needs to be used, then define suitably the **self.args['EVAL_HDF5']** in the **[config_class.py](https://github.com/dimitrisdais/crack_detection_CNN_masonry/blob/main/config_class.py)**.  
 
 ``` python
         # In case you need to test the model on a set other than the validation set,
