@@ -106,7 +106,7 @@ if mode == 'train':
     
     # Define Network and compile model
     from network_class import Network
-    model = Network(args, IMAGE_DIMS, N_FILTERS, BS, INIT_LR, opt, loss, metrics).define_Network()
+    model = Network(args, IMAGE_DIMS, N_FILTERS, BS, INIT_LR, opt, loss, metrics).define_network()
 
     # Visualize model
     try:
