@@ -62,7 +62,7 @@ def dilation2d(img4D):
     
     with tf.compat.v1.variable_scope('dilation2d'):
         kernel = tf.zeros((kernel_size, kernel_size, 1)) 
-        output4D = tf.nn.dilation2d(img4D, filter=kernel, strides=(1,1,1,1), rates=(1,1,1,1), padding="SAME")
+        output4D = tf.nn.dilation2d(img4D, filter=kernel, strides=(1,1,1,1), data_format='NHWC', dilations=(1,1,1,1), padding="SAME")
 
         return output4D
 
